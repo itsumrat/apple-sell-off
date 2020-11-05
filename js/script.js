@@ -60,7 +60,6 @@ $(document).ready(function() {
 	});
 	$(".menuId").on('click', function(e){
 		// e.stopPropagation()
-		console.log('clicked')
 			$(this).toggleClass('close-nav');
 			nav.toggleClass('open');
 			return false;
@@ -68,12 +67,31 @@ $(document).ready(function() {
 	});
 	$(".closeIcon").on('click', function(e){
 		// e.stopPropagation()
-		console.log('clicked')
 		$(this).toggleClass('close-nav');
 		nav.toggleClass('open');
 		return false;
 
 	});
+
+	$('#exNavigator').on('click', function () {
+		$('.storeSidebar').toggleClass("open");
+		$('.exNavigator').toggleClass("close");
+
+	});
+	$(".storeSidebar").on('click', function(e){
+		if (!$(e.target).hasClass("sidebar-content-wrapper")
+			&& $(e.target).parents(".storeSidebar").length === 0)
+		{
+			$('.storeSidebar').toggleClass("open");
+			$('.exNavigator').toggleClass("close");
+		}
+	});
+	$('.sidebarClose').on('click', function () {
+		$('.storeSidebar').toggleClass("open");
+		$('.exNavigator').toggleClass("close");
+
+	});
+
 
 });
 

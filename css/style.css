@@ -46,6 +46,28 @@ html, body{
 .closeIcon{
     display: none;
 }
+.exNavigator{
+    position: absolute;
+    border-left: 10px solid;
+    height: 100%;
+    left: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    z-index: 3000;
+    visibility: hidden;
+}
+.storeSidebar{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(201, 190, 190, 0.59);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1200;
+    overflow: auto;
+}
 .nonindex-header .header-content {
     margin: 0 auto;
     max-width: 1170px;
@@ -243,6 +265,36 @@ html, body{
         font-size: 70px;
         border-radius: 50%;
         height: 83px
+    }
+
+    .exNavigator{
+        visibility: visible;
+    }
+    .exNavigator.close {
+        visibility: hidden;
+    }
+
+    .sidebarClose{
+        position: absolute;
+        right: 50px;
+        z-index: 1;
+    }
+    .storeSidebar.open{
+        width: 100%;
+        opacity: 1;
+        transition: 0.5s;
+        visibility: visible;
+    }
+    .sidebar-content-wrapper{
+        background-color: white;
+        width: 80%;
+        height: 100%;
+        position: relative;
+        padding: 40px;
+        overflow: scroll;
+    }
+    .desktop-filter{
+        display: none;
     }
     #header.fixed a {
         color: #fff;

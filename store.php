@@ -2,6 +2,7 @@
 
 	<div class="container">
 		<div class="row">
+		    <div class="desktop-filter">
 			<div class="col-lg-6">
 				<h5 style="margin: 15rem 0 3rem 0;font-weight: 900">Products</h5>
 			</div>
@@ -130,7 +131,7 @@
 					                	<input type="tel" id="amount-to" onkeypress="return isNumberKey(event)" value="33000">
 					              	</div>
 				              	</div>
-				            </div> 
+				            </div>
 				          </div>
 				        </li>
 				    </ul>
@@ -239,6 +240,7 @@
 						</label>
 					</div>
 				</div>
+			</div>
 			</div>
 			<div class="col-lg-9">
 				<div class="row">
