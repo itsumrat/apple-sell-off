@@ -51,15 +51,18 @@ html, body{
     border-left: 10px solid;
     height: 100%;
     left: 0;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    top: 0;
     z-index: 3000;
     visibility: hidden;
+}
+.toggleIcon{
+    top: 460px;
+    position: absolute;
 }
 .storeSidebar{
     position: absolute;
     width: 0%;
+    top: 0;
     height: 100%;
     background-color: rgba(201, 190, 190, 0.59);
     transition: 0.5s;
@@ -67,6 +70,9 @@ html, body{
     opacity: 0;
     z-index: 1200;
     overflow: auto;
+}
+.desktop-filter{
+   width: 100%;
 }
 .nonindex-header .header-content {
     margin: 0 auto;

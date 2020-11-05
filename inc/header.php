@@ -42,7 +42,7 @@
     		</header>
 
     		<div id="exNavigator" class="exNavigator">
-                <i class="fas fa-3x fa-bars fa-rotate-90"></i>
+                <i class="toggleIcon fas fa-3x fa-bars fa-rotate-90"></i>
             </div>
 
             <div class="storeSidebar">
@@ -50,23 +50,7 @@
                      <div class="sidebarClose">
                         <i class="far fa-3x fa-times-circle"></i>
                      </div>
-
-                    <div class="col-lg-6">
-                        <h5 style="margin: 15rem 0 3rem 0;font-weight: 900">Products</h5>
-                    </div>
-                    <div class="col-lg-6">
-                        <select class="form-control product-filtering" style="margin: 15rem 0 3rem 0;">
-                            <option value="best-selling">Best Selling</option>
-                            <option value="featured">Featured</option>
-                            <option value="price-ascending">Price: Low to High</option>
-                            <option value="price-descending">Price: High to Low</option>
-                            <option value="title-ascending">Alphabetically: A-Z</option>
-                            <option value="title-descending">Alphabetically: Z-A</option>
-                            <option value="created-descending">Date: New to Old</option>
-                            <option value="created-ascending">Date: Old to New</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3" style="margin-top: 70px;">
                         <div class="refineby">
                             <span style="font-size: 14px;">Refine By</span>
                             <a href="#">Clear All</a><br><br>
