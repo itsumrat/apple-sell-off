@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
             <div class="col-lg-6">
-                <h5 style="margin: 15rem 0 3rem 0;font-weight: 900">Products</h5>
+                <h5 class="store-title" style="margin: 15rem 0 3rem 0;font-weight: 900">Products</h5>
             </div>
             <div class="col-lg-6">
                 <select class="form-control product-filtering" style="margin: 2rem 0 2rem 0;">
