@@ -10,6 +10,7 @@ html, body{
   height: 100%;
   font-family: "Avenir";
   background-color: #fff;
+    overflow-y: scroll;
 }
 .nav-pills .nav-link {
     border-radius: 0;

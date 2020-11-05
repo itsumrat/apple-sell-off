@@ -17,8 +17,8 @@
                     <option value="created-ascending">Date: Old to New</option>
                 </select>
             </div>
-		    <div class="desktop-filter">
-			<div class="col-lg-3">
+		    <div class="desktop-filter col-lg-3">
+			<div class="">
 				<div class="refineby">
 					<span style="font-size: 14px;">Refine By</span>
 					<a href="#">Clear All</a><br><br>
