@@ -1,10 +1,6 @@
 $(document).ready(function() {
-	console.log('lsakjfdol')
-	// Header Scroll
 	$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
-		console.log(scroll)
-		console.log('scroll')
 		if (scroll >= 50) {
 			$('#header').addClass('fixed');
 		} else {
@@ -115,7 +111,6 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
 // Logo
 $(function() { var logo = $(".lrg-logo"); $(window).scroll(function() {
 var scroll = $(window).scrollTop();
-	console.log(scroll)
     if (scroll >= 50) {
       if(!logo.hasClass("sml-logo")) {
         logo.hide();

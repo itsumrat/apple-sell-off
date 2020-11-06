@@ -112,7 +112,7 @@ html, body{
 }
 .navigation {
     float: right;
-    /*padding-top: 14px;*/
+    padding-top: 14px;
     /*width: 0;*/
     /*overflow-x: hidden;*/
 
@@ -306,7 +306,8 @@ html, body{
         display: none;
     }
     #header.fixed a {
-        color: #fff;
+        color: #000000;
+        /*color: #fff;*/
     }
   .nav-toggle {
     display: block;
@@ -324,6 +325,7 @@ html, body{
         opacity: 0;
         /*transition: opacity 0.5s, visibility 0s 0.5s;*/
         transition: 300ms;
+        padding-top: 0px;
     }
     .navigation .primary-nav {
       position: relative;
@@ -342,7 +344,6 @@ html, body{
       background-color: #f5f5f5;
     }
     .primary-nav li:first-child {
-        margin-bottom: 50px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -353,7 +354,7 @@ html, body{
     .navigation a {
       display: block;
       font-size: 28px;
-        font-weight: 900;
+      font-weight: 900;
       margin: 0;
       text-align: center;
       color: black;
