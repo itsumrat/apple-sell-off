@@ -15,7 +15,7 @@
 
 
 
-        <header id="header" class="nonindex-header">
+        <header class="nonindex-header">
     		    <div class="header-content clearfix">
     		    	<a class="logo" href="index.html">
     		    		<div class="sml-logo"></div>
