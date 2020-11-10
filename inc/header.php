@@ -31,7 +31,7 @@
     					<div class="closeIcon"><i class="far fa-times-circle"></i></div>
     			        <ul id="primary-nav" class="primary-nav">
     <!--			          <li><a href="#"><div class="sml-logo"></div></a></li>-->
-    			          <li><a href="#">Home</a></li>
+    			          <li><a href="/">Home</a></li>
     			          <li><a href="store.php">Apple</a></li>
     			          <li><a href="store.php">audio</a></li>
     			          <li><a href="support.php">support</a></li>
