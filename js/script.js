@@ -42,12 +42,14 @@ $(document).ready(function() {
 		console.log('hello')
 		return false;
 	});
-	nav.find('a').on('click', function() {
+	nav.find('a').on('click', function(e) {
+		e.preventDefault();
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
 
 	$(".navigation").on('click', function(e){
+		e.preventDefault();
 		if (!$(e.target).hasClass("primary-nav")
 			&& $(e.target).parents(".navigation").length === 0)
 		{

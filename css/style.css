@@ -63,6 +63,7 @@ html, body{
     position: absolute;
     width: 0%;
     top: 0;
+    left: 0;
     height: 100%;
     background-color: rgba(201, 190, 190, 0.59);
     transition: 0.5s;
@@ -262,7 +263,7 @@ html, body{
         background-color: #f5f5f5;
         font-size: 25px;
         font-weight: bold;
-        border-radius: 10px;
+        border-radius: 0;
     }
     .closeIcon{
         display: block;
@@ -355,9 +356,17 @@ html, body{
       display: block;
       font-size: 28px;
       font-weight: 900;
+      padding-left: 0;
       margin: 0;
       text-align: center;
       color: black;
+    }
+}
+
+/*-------- Extra small devices (portrait phones, less than 576px) --------*/
+@media (max-width: 575.98px) {
+    .nonindex-header .header-content {
+        text-align: center;
     }
 }
 
@@ -489,6 +498,19 @@ html, body{
     text-transform: capitalize;
 }
 
+/*-------- Extra small devices (portrait phones, less than 576px) --------*/
+@media only screen and (max-width: 575.98px) {
+    .highlights-item img {
+        width: 60px;
+    }
+    .highlights-item h5 {
+        font-size: 13.7px;
+    }
+    .highlights-item p {
+        font-size: 9px;
+    }
+}
+
 /*--------- Categories ---------*/
 #categories {
     background-color: #ececec;
@@ -587,7 +609,7 @@ html, body{
     }
 }
 /*-------- Extra small devices (portrait phones, less than 576px) --------*/
-@media (max-width: 575.98px) {
+@media only screen and (max-width: 575.98px) {
     #categories {
         padding: 2rem 0 1.5rem 0;
     }
@@ -597,6 +619,9 @@ html, body{
     }
     .category-content .nav-pills .nav-item {
         margin-bottom: 1rem;
+        display: inline-block;
+        width: 135px;
+        margin-right: 1rem;
     }
     .item {
         height: 350px;
@@ -612,7 +637,7 @@ html, body{
         bottom: 30px;
     }
     .category-content .nav-pills .nav-item a {
-        width: 85%;
+        width: 100%;
     }
 }
 
@@ -1293,6 +1318,13 @@ div#contact {
 .tab-pane a {
     text-decoration: underline;
     color: #000;
+}
+
+/*-------- Extra small devices (portrait phones, less than 576px) --------*/
+@media (max-width: 575.98px) {
+    .policy-page {
+        margin: 1rem 0;
+    }
 }
 
 /*--------- Sign In ---------*/
